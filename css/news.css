@@ -1,0 +1,141 @@
+
+body{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	font-size: 0.16rem;
+	color: #000;
+}
+.jt{
+    font-size:0.3rem;
+    display: block;
+    font-family: '宋体';
+    color: #ffffff;
+}
+/*toubu*/
+.toubu{
+	width: 100%;
+	height: 0.5rem;
+	padding: 0 0.13rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.01rem solid #ffffff;
+    background: #333333;
+}
+.zuobian{
+	display: block;
+	width: 0.45rem;
+	height: 0.16rem;
+	font-size: 0.14rem;
+	color: #000;
+	line-height: 0.16rem;
+	/*background: green;*/
+	
+}
+.xiayibu{
+	display: block;
+	/*width: 0.2rem;*/
+	/*height: 0.16rem;*/
+	font-size: 0.2rem;
+	color: #000;
+	line-height: 0.16rem;
+    color: #ffffff;
+}
+.rensile{
+	width: 100%;
+	height: 0.55rem;
+    background: #333333;
+	padding: 0 0.13rem;
+	font-size: 0.2rem;
+    color: #ffffff;
+}
+.zgqnb{
+	width: 100%;
+	height: 0.31rem;
+	/*background: pink;*/
+	font-size: 0.12rem;
+	color: #fff;
+	padding: 0 0.13rem;
+    background: #333333;
+}
+.img{
+	width: 100%;
+	height: 2.09rem;
+}
+.img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.disanjie{
+	width: 100%;
+	height: 0.35rem ;
+	background:#333333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.disanjie span{
+	display: block;
+	width: 1.5rem;
+	height: 100%;
+	font-size: 0.1rem;
+	line-height: 0.35rem;
+	color: #d2d2d2;
+	border-bottom: 0.01rem solid #ddd;
+}
+.zhengwen{
+	width: 100%;
+	height: auto;
+	padding: 0 0.13rem;
+    padding-bottom:0.2rem;
+    background: #222222;
+    color: #ffffff;
+}
+.pinlunkuang{
+	width: 100%;
+	height: 0.5rem;
+	background: #f8f8f8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	border-top: 0.02rem solid #ccc;
+	display: flex;
+	
+}
+.bi{
+	display: block;
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #ccc;
+}
+.pinlunkuang input{
+	display: block;
+	width: 40%;
+	height: 100%;
+	border: none;
+	border-right: 0.02rem solid #ccc;
+}
+.xinxi,.xihuan,.zhuanfa{
+	display: block;
+	width: 16.55%;
+	height: 100%;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #ccc;
+	position: relative;
+}
+.pinlunkuang span{
+	display: block;
+	width: auto;
+	height: 0.25rem;
+	/*background: red;*/
+	font-size: 0.08rem;
+	line-height: 0.25rem;
+	position: absolute;
+	top: 0.05rem;
+	left: 0.38rem;
+}

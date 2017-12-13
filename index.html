@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/rem.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="tianchong"></div>
+<!-- 头部开始 -->
+<header>
+    <a href="" class="header-left">
+    </a>
+    <div class="header-center">
+        <a href="" class="header-center1">
+            博客
+        </a>
+        <div class="header-center1-div"></div>
+        <a href="pic.html" class="header-center2">
+            图片
+        </a>
+    </div>
+    <a href="zhuyesousuo.html" class="header-right">
+        <img src="img/search.png" alt="">
+    </a>
+</header>
+<!-- 头部结束 -->
+<!-- 导航开始 -->
+<div class="nav"></div>
+<nav>
+    <ul>
+        <li>
+            <a href="">
+                HTML5
+            </a>
+        </li>
+        <li>
+            <a class="tiyu" href="">
+                CSS3
+            </a>
+        </li>
+        <li>
+            <a href="">
+                JS
+            </a>
+        </li>
+        <li>
+            <a href="">
+                PHP
+            </a>
+        </li>
+        <li>
+            <a href="">
+                jQuery
+            </a>
+        </li>
+    </ul>
+</nav>
+<!-- 导航结束 -->
+<!-- 轮播图开始 -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="" class="banner" >
+                <img src="img/1.jpg" alt="" >
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="" class="banner">
+                <img src="img/2.jpg" alt="">
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="" class="banner">
+                <img src="img/3.jpg" alt="">
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="" class="banner">
+                <img src="img/4.jpg" alt="">
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="" class="banner">
+                <img src="img/5.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination place"></div>
+</div>
+
+<!-- 轮播图结束 -->
+<!-- 新闻内容开始 -->
+<ul class="xinwenneirong">
+    <!-- 一 -->
+    <li>
+        <a href="news.html">
+            <div class="xinwenneirong-left">
+                <div class="xinwenneirong-left2">
+                    Css是什么？和Css3的区别和联系
+                </div>
+                <div class="nr">
+                    CSS即层叠样式表（Cascading StyleSheet）。
+                    在网页制作时采用层叠样式表技术，可以有效地对页面的布局、字体、颜色、
+                    背景和其它效果实现更加精确的控制。
+                </div>
+                <div class="xinwenneirong-left3">
+                    阅读:2354次·评论:12.5万
+                </div>
+            </div>
+            <img src="img/nr1.jpg" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="">
+            <div class="xinwenneirong-left">
+                <div class="xinwenneirong-left2">
+                    Css中的2D转换和3D转换
+                </div>
+                <div class="nr">
+                    CSS3转换，我们可以移动，比例化，反过来，旋转，和拉伸元素。
+                </div>
+                <div class="xinwenneirong-left3">
+                    阅读:2354次·评论:12.5万
+                </div>
+            </div>
+            <img src="img/nr2.jpg" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="">
+            <div class="xinwenneirong-left">
+                <div class="xinwenneirong-left2">
+                    Css动画怎么实现
+                </div>
+                <div class="nr">
+                    CSS3，我们可以创建动画，它可以取代许多网页动画图像，Flash动画，和JAVAScripts。
+                    @keyframes规则是创建动画。 @keyframes规则内指定一个CSS样式和动画将逐步从目前的样式更改为新的样式。
+                </div>
+                <div class="xinwenneirong-left3">
+                    阅读:12356次·评论:12.5万
+                </div>
+            </div>
+            <img src="img/nr3.jpg" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="">
+            <div class="xinwenneirong-left">
+                <div class="xinwenneirong-left2">
+                    Css弹性盒子
+                </div>
+                <div class="nr">
+                    弹性盒子是 CSS3 的一种新的布局模式。
+                    CSS3 弹性盒（ Flexible Box 或 flexbox），是一种当页面需要适应不同的屏幕大小以及设
+                    备类型时确保元素拥有恰当的行为的布局方式。。
+                </div>
+                <div class="xinwenneirong-left3">
+                    阅读:12356次·评论:12.5万
+                </div>
+            </div>
+            <img src="img/nr4.jpg" alt="">
+        </a>
+    </li>
+</ul>
+<!-- 新闻内容结束 -->
+</body>
+</html>
+
+<script src="js/swiper.min.js"></script>
+<script>
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+
+
+</script>
